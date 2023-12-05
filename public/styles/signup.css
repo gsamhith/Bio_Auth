@@ -1,0 +1,86 @@
+body{
+    padding: 0px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+#signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgb(38, 67, 133), rgb(4, 17, 48));
+}
+#signup h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+form {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px 0px rgb(11, 152, 46);
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: normal;
+}
+form input[type="text"], form input[type="password"], form input[type="tel"],form input[type="email"]{
+    width: 60%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+form input[type="submit"]{
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid rgb(50, 72, 18);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: greenyellow;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+form .small-form{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.remember-me{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.small-form .remember-me label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.small-form .remember-me input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.small-form a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.small-form a:hover{
+    color: white;
+}

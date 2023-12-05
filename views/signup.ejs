@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/styles/signup.css">
+</head>
+<body>
+    <div id="signup">
+        <h1>Sign Up/Register</h1>
+        <form action="/signup" method="post">
+            <!-- <div class="name">
+                <label for="firstName">First Name</label>
+            <input type="text" name="First Name" id="firstName" required>
+            <label for="lastName">Last Name</label>
+            <input type="text" name="Last Name" id="lastName">
+            </div> -->
+            <div class="email">
+            </div>
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email" placeholder="example@mail.com" required>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+            <!-- <label for="phone">Phone</label>
+            <input type="tel" name="Phone" id="phone" placeholder="+91"> -->
+            <div class="pass">
+            <!-- <label for="password">Confirm Password</label>
+            <input type="password" name="Confirm Password" id="password" required> -->
+            </div>
+            <div class="small-form">
+                <div class="remember-me">
+                    <input type="checkbox" name="Remember Me" id="rememberMe">
+                <label class="small-label" for="rememberMe">Remember Me</label>
+                </div>
+                <a href="/signin">Sign In</a>
+            </div>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>

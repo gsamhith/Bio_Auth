@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(4, 17, 48);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px ;
+    padding: 50px 4em;
+}
+header h1{
+    font-size: 50px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 0px 40px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+    margin:0px 25px ;
+}
+.head-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head-btn form button{
+    background-color: greenyellow;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0px 25px;
+}
+.head-btn form .btn-out{
+    background-color: rgb(4, 17, 48);
+    border: 4px solid greenyellow;
+    color: white;
+    padding: 11px 21px;
+    
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10em ;
+    padding: 50px 4em;
+    border-style: solid none none solid;
+    border-color: greenyellow;
+}
+.main h1{
+    font-size: 50px;
+}
+.main h2{
+    font-size: 30px;
+}
+.main p{
+    font-size: 20px;
+    width: 60%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.main .main-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main form {
+    margin-top: 5 0px;
+}
+.main form button{
+    background-color: greenyellow;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 60px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0px 5emm;
+}
+.main .main-content{
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px ;
+    padding: 50px 4em;  
+}
+/* email */
+.email{
+    margin: 0px 10em ;
+    margin-top: 150px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column ;
+    background-image: linear-gradient(to right,rgb(4, 17, 48), rgb(23, 46, 99), rgb(4, 17, 48));
+    /* border-style: none solid solid solid;
+    border-color: greenyellow;
+    border-top: 1cm solid greenyellow; */
+}
+.email h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    margin: 0px;
+    padding: 70px 0px 20px 0px;
+}
+.email p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
+}
+.email form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0em;
+}
+.email form input{
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(59, 59, 59);
+    border-bottom: 5px solid greenyellow;
+    padding: 5px 20px;
+    font-size: 1.2em;
+    margin-right: 50px;
+}
+.email form button{
+    background-color: greenyellow;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 60px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0px;
+
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px ;
+    padding: 50px 4em;
+}

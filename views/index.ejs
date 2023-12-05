@@ -1,0 +1,40 @@
+<%- include ("partials/header.ejs") %>
+<!-- main content -->
+<div class="main">
+    <% if (!user) { %>
+    <div class="main-content">
+        <h1>Secure Access with Biometric Authentication</h1>
+        <h2>Welcome to Secure Access</h2>
+        <p>Biometric authentication is a highly secure method of verifying an individual's identity based on their unique physical characteristics. It can be used to secure access to websites, applications, and other digital resources.</p>
+        <form action="/signup" method="get">
+            <button id="main-btn">
+                Let's get started
+            </button>
+        </form>
+    </div>
+    <% } else { %>
+    <div class="main-content">
+        <h1>Hello, <%= user%></h1>
+        <h2>Welcome to Secure Access</h2>
+        <form action="/logout" method="get">
+            <button id="main-btn">
+                Logout
+            </button>
+        </form>
+    </div>
+    <% } %>
+    <div class="main-img">
+        <img src="/images/main-img.jpg" alt="">
+    </div>
+</div>
+<!-- email -->
+<div class="email">
+    <h1>Subscribe to our newsletter</h1>
+    <p>Get the latest news and updates from us</p>
+    <form id="subscribeForm" action="/subscribe" method="post">
+        <input type="email" id="subemail" name="subemail" placeholder="Enter your email">
+        <button type="submit" onclick="sendEmail()">Subscribe</button>
+    </form>
+</div>
+<!-- footer -->
+<%- include ("partials/footer.ejs") %>

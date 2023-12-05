@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="/styles/signin.css">
+</head>
+<body>
+    <div id="signin">
+        <h1>Sign In</h1>
+        <form method="get" >
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <div class="small-form">
+                <div class="remember-me">
+                    <input type="checkbox" name="Remember Me" id="rememberMe">
+                <label class="small-label" for="rememberMe">Remember Me</label>
+                </div>
+                <a href="/signup">Sign Up</a>
+            </div>
+            <input type="submit" formaction="/login" value="Login">
+        </form>
+    </div>
+</body>
+</html>
